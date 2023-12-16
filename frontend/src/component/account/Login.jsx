@@ -60,6 +60,7 @@ const Login=()=>{
     }
 
     const onINputChange = (e) => {
+        
         setSignip({...singup,[e.target.name]: e.target.value});
     }
     return(
